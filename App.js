@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Saudacao, } from 'react-native';
-
+import { StyleSheet, Text, View, } from 'react-native';
+import Sobrenome from './src /Telas/Sobrenome';
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Bora um apzinho d 20?</Text>
-       <Saudacao nome='Plk' />
+      <Sobrenome />
       <StatusBar style="auto" />
     </View>
   );
