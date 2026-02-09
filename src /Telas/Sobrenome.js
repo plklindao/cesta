@@ -1,6 +1,11 @@
 import React from "react";
 import {Text} from "react-native"
 
-export default function Sobrenome(){
-    return <Text> Clipa </Text>
+
+export default function Sobrenome({nome}){
+    return(
+        <Text>
+            Usuário= {nome}
+        </Text>
+    )
 }

@@ -1,21 +1,22 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, } from 'react-native';
+import { Text, SafeAreaView } from 'react-native';
 import Sobrenome from './src /Telas/Sobrenome';
+
+
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Bora um apzinho d 20?</Text>
-      <Sobrenome />
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView>
+      <Text>Ap de 3,50</Text>
+      <Sobrenome nome='full ump e xm8'/>
+      <Sobrenome nome='Vale duas ump adm?'/>
+      <Sobrenome nome='W.O adm'/>
+      <Sobrenome nome='Pode Música adm?'/>
+      <Sobrenome nome='Pode se ensconder adm?'/>
+      <Sobrenome nome='Pode falar da mãe adm?'/>
+      
+     <StatusBar />
+    </SafeAreaView>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
