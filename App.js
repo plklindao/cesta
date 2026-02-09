@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Bora um apzinho d 20?</Text>
-      <Saudacao> Olá </Saudacao>
+       <Saudacao nome='Plk' />
       <StatusBar style="auto" />
     </View>
   );
